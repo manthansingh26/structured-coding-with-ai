@@ -1,26 +1,18 @@
 # Grok Instruction Set
 
-Ready-to-use instruction file for Grok (xAI) optimized for animal advocacy and animal liberation software projects.
-
-This directory provides structured guidance so Grok can work effectively on high-risk advocacy codebases while respecting security, privacy, emotional safety, and movement-specific requirements.
-
-## What's Included
-
-- Full coverage of the **7 Concerns** (Testing, Security, Privacy, Cost Optimization, Advocacy Domain, Accessibility, Emotional Safety)
-- Full coverage of the **6 Process Skills** (git-workflow, testing-strategy, requirements-interview, plan-first-development, code-review, security-audit)
-- **Two-State Identity Model** (Advocacy Mode + Neutral Mode) for safe internal and external contributions
+Ready-to-use instructions for Grok (xAI) optimized for animal advocacy and animal liberation software projects.
 
 ## Structure
 
-```
+```markdown
 grok/
-├── GROK.md          # Main instruction file (load as system/custom instructions)
+├── GROK.md          # Main instruction file
 └── README.md        # This file
 ```
 
 ## Usage
 
-Copy the directory into your project root:
+Copy into your project root:
 
 ```bash
 cp -r grok/ your-project/
