@@ -26,8 +26,9 @@ structured-coding-with-ai/
 ├── cline/              # .clinerules/ (14 files)
 ├── cursor/             # .cursorrules + .cursor/rules/ (14 files)
 ├── gemini-cli/         # GEMINI.md
-├── github-copilot/     # .github/ instructions, prompts, chat modes (23 files)
-├── jetbrains-junie/    # .junie/guidelines.md
+├── github-copilot/ # .github/ instructions, prompts, chat modes (23 files)
+├── grok/           # GROK.md + README.md (2 files)
+├── jetbrains-junie/ # .junie/guidelines.md
 ├── kilo-code/          # .kilocode/rules/ + Memory Bank (21 files)
 ├── roo-code/           # .roomodes + .roo/rules/ (19 files)
 ├── windsurf/           # .windsurf/rules/ (14 files)
@@ -78,8 +79,9 @@ Full copy commands for every tool are listed in the [Tool Reference](#tool-refer
 | Aider | `aider/` | 1 | Single CONVENTIONS.md |
 | Gemini CLI | `gemini-cli/` | 1 | Single GEMINI.md |
 | JetBrains / Junie | `jetbrains-junie/` | 1 | Single .junie/guidelines.md, always loaded |
+| Grok (xAI) | `grok/` | 2 | `GROK.md` main instruction file with Two-State Identity Model |
 | AGENTS.md | `agents-md/` | 1 | Vendor-neutral, supported by 20+ tools |
-| **Total** | | **140** | |
+| **Total** | | **142** | |
 
 ---
 
@@ -154,6 +156,9 @@ cp gemini-cli/GEMINI.md your-project/
 
 # JetBrains / Junie
 cp -r jetbrains-junie/.junie your-project/
+
+# Grok
+cp -r grok/ your-project/
 
 # AGENTS.md (universal fallback, 20+ tool support)
 cp agents-md/AGENTS.md your-project/
